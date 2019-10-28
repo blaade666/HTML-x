@@ -1,0 +1,56 @@
+body {
+	background-color: white;
+	width:960px;
+	padding:20px;
+}
+header {
+	background-color: black	;
+	width:960px;
+	height:110px;
+	margin-bottom:30px;
+}
+main {
+	background-color: white;
+	width:960px;
+	height:630px;
+	border:1px,black,solid;
+}
+footer {
+	background-color: white;
+	width:960px;
+	height:170px;
+	margin-top:240px;
+	position: absolute;
+}
+li.menu {
+	display: inline-block;
+}
+img#foto {
+	width: 960px;
+	height:auto;
+}
+p#text1 {
+	text-align:left;
+	position:left;
+}
+
+table#table1 {
+	text-align:middle;
+}
+
+div#leftside {
+	float:left;
+}
+
+div#rightside {
+	float:right;
+	margin-right:0px;	
+}
+
+td#TabelElectro {
+	background-color:lime;
+}
+
+td#TabelGas {
+	background-color:blue;
+}

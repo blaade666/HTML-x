@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="head 2">
+	<title="B.E. Login">
+	<link rel="stylesheet" href="stylesheet.css">
+	<style>
+	form ul {
+	list-style-type: none;
+	padding:0;}
+	
+	form ul li {
+	padding:10px;}
+	
+	form ul li input {
+	position:absolute;
+	left:150px;
+	
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size:28px;
+	}
+	</style>
+</head>
+	<body id="body 2">
+		<main id="main 2">
+		<form action="https://www.savatarian.com/html5/form.php" method="post">
+					<h2>Burton Education</h2>
+					<span class="verplicht">*verplicht veld</span>
+				<div id="deel1">
+				<div class="Group1-words">
+					<label for="voornaam">*Voornaam:</label>
+				</div>	
+				
+				<div class="textbalken1">
+					<input type="text" name="voornaam" required/>
+				</div>
+				
+				<div class="Group1-words">
+					<label for="tussenvoegsel">Tussenvoegsel:</label>
+				</div>
+				
+				<div class="textbalken1">
+					<input type="text" name="tussenvoegsel" />
+				</div>
+				
+				<div class="Group1-words">
+					<label for="achternaam">*Achternaam:</label>
+				</div>
+				
+				<div class="textbalken1">
+					<input type="text" name="achternaam" required/>
+				</div>
+				
+				<div class="Group1-words">
+					<label for="geslacht">*Geslacht:</label>
+				</div>
+					<input type="radio" name="geslacht" value="man">
+					&nbsp;Man
+					<input type="radio" name="geslacht" value="vrouw">
+					&nbsp;Vrouw
+				
+				<div class="Group1-words">
+					<label for="kleur-ogen">*Kleur ogen:</label>
+				</div>
+						<select name="kleur-ogen" required>
+						<option>Groen</option>
+						<option>Blauw</option>
+						<option>Bruin</option>
+					</select>
+				<div class="Group1-words">
+					<label for="datum">*Geboortedatum:</label>
+				</div>
+					<input type="date" name="datum"
+					value="dd-mm-yyyy"
+					min="01-01-1901" max="01-01-2019"
+					required>	
+					
+				<div class="Group1-words">
+					<label for="omschrijving">*Omschrijving:</label>
+				</div>
+					<textarea name="omschrijving" required></textarea>
+				</div>
+				
+					<label for="Jonko">Jonko:</label><br>
+					<input type="checkbox" name="Jonko" value="White chocolate">
+					<span class="checkbox">Patat:</span><br>
+					<input type="checkbox" name="Jonko" value="White widow">
+					<span class="checkbox">Bruine bonen:</span><br>
+					<input type="checkbox" name="Jonko" value="Maroc polm">
+					<span class="checkbox">Linzen:</span><br>
+				
+					<button type="button" onclick="alert('Aanmelding geannuleerd.')">Annuleer</button>
+				
+					<input type="submit" name="submit" value="Submit"/>
+			</form>
+		</main>
+	</body>
+</html>
+	

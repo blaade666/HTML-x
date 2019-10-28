@@ -1,0 +1,75 @@
+head {
+	background-color:rgb(252,235,235);
+	width:1010px;
+	height:120px;
+}
+
+body {
+	background-color:rgb(252,235,235);
+	width:1010px;
+	padding:15px;
+	margin:10px;
+}
+
+main {
+	background-color:rgb(252,235,235);
+	width:1010px;
+	height:750px;
+	padding:15px;
+	margin:10px;
+}
+
+footer {
+	background-color:rgb(166,166,166);
+	width:1034px;
+	height:120px;
+	margin-top:250px;
+}
+
+li.menu {
+	display:inline;
+}
+
+section.appel, section.visuals {
+	width: 50%;
+	float: left;
+}
+
+section.text {
+	height:331px;
+}
+
+img.appel {
+	width:478px;
+}
+
+img.visuals {
+	width:467px;
+}
+
+article {
+	display:inline-block;
+	width:33%;
+	padding-right:0px;
+	vertical-align:top;
+	font-family: Arial;
+}
+
+article:last-child {
+	padding-right:0px;
+}
+
+footer {
+	color: white;
+}
+
+p {
+	color: white;
+}
+
+div.Group1-words {
+	text-align:left;
+	height:18px;
+	padding:2px;
+	width:9px;
+}
